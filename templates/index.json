@@ -32,11 +32,20 @@
         "background_color": "#f4f4f4",
         "text_color": "#000000"
       }
+    },
+    "myproducts_BRf9Qw": {
+      "type": "myproducts",
+      "settings": {
+        "tissovisonin": "Tisso vision in the wild",
+        "collection": "frontpage",
+        "products_to_show": 12
+      }
     }
   },
   "order": [
     "myheader",
     "myherobanner_kWjqKr",
-    "myherofooter_crbYyU"
+    "myherofooter_crbYyU",
+    "myproducts_BRf9Qw"
   ]
 }
