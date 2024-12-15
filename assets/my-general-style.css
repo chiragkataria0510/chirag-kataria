@@ -3,27 +3,27 @@ img {
     height: auto;
 }
 
-.myherofooter button,
-.myherofooter input,
-.myherofooter optgroup,
-.myherofooter select,
-.myherofooter textarea {
+.general button,
+.general input,
+.general optgroup,
+.general select,
+.general textarea {
     margin: 0;
     padding: 0;
 }
 
-.myherofooter h1,
-.myherofooter h2,
-.myherofooter h3,
-.myherofooter h4,
-.myherofooter h5,
-.myherofooter h6,
-.myherofooter hr,
-.myherofooter p {
+.general h1,
+.general h2,
+.general h3,
+.general h4,
+.general h5,
+.general h6,
+.general hr,
+.general p {
     margin: 0;
 }
 
-.myherofooter {
+.general {
 
     [type="text"],
     input:where(:not([type])),
