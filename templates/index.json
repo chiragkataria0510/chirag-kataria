@@ -1,5 +1,8 @@
 {
   "sections": {
+    "myheader": {
+      "type": "myheader"
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -69,6 +72,7 @@
     }
   },
   "order": [
+    "myheader",
     "image_banner",
     "featured_collection"
   ]

@@ -1,0 +1,80 @@
+{{ 'my-general-style.css' | asset_url | stylesheet_tag }}
+{{ 'myheader.css' | asset_url | stylesheet_tag }}
+<!-- header section -->
+<header class="myheader">
+  <div class="rowheadertext">
+    <div class="rowlogo_part_one">
+      {% if section.settings.logo_part_one == blank %}
+        {% render 'img_user'
+          , class: 'logo_part_one' %}
+      {% else %}
+        <img
+          src="{{section.settings.logo_part_one | image_url}}"
+          alt="User"
+          width="64"
+          height="18"
+          loading="lazy"
+          class="logo_part_one">
+      {% endif %}
+      {% if section.settings.logo_part_two == blank %}
+        {% render 'img_user_black_900'
+          , class: 'logo_part_two' %}
+      {% else %}
+        <img
+          src="{{section.settings.logo_part_two | image_url}}"
+          alt="User"
+          width="74"
+          height="18"
+          loading="lazy"
+          class="logo_part_two">
+      {% endif %}
+    </div>
+    <p class="headertext">{{ section.settings.headertext }}</p>
+
+    <button class="flex-row-center-center choose_gift" id="chooseGiftBtn">
+      <span>
+        {{ 'sections.myheader.lbl_choose_gift' | t }}</span>
+      <div class="right-icon-wrapper">{% render 'img_line_15'
+, class: 'line-15' %}</div>
+    </button>
+  </div>
+</header>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var chooseGiftBtn = document.getElementById('chooseGiftBtn');
+    chooseGiftBtn.addEventListener('click', function () {
+      window.location.href = '/collections/all';
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "t:sections.myheader.name",
+    "tag": "header",
+    "settings": [
+      {
+        "type": "text",
+        "id": "headertext",
+        "label": "t:sections.myheader.settings.headertext",
+        "default": "Find the ideal gift for your loved ones."
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_part_one",
+        "label": "t:sections.myheader.settings.logo_part_one"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_part_two",
+        "label": "t:sections.myheader.settings.logo_part_two"
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.myheader.presets.name",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}

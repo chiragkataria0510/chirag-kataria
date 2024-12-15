@@ -265,6 +265,7 @@
     }
   },
   "sections": {
+    "myheader": { "lbl_choose_gift": "choose gift" },
     "announcements": {
       "previous_announcement": "Previous announcement",
       "next_announcement": "Next announcement",

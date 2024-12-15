@@ -1,0 +1,60 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.myherofooter button,
+.myherofooter input,
+.myherofooter optgroup,
+.myherofooter select,
+.myherofooter textarea {
+    margin: 0;
+    padding: 0;
+}
+
+.myherofooter h1,
+.myherofooter h2,
+.myherofooter h3,
+.myherofooter h4,
+.myherofooter h5,
+.myherofooter h6,
+.myherofooter hr,
+.myherofooter p {
+    margin: 0;
+}
+
+.myherofooter {
+
+    [type="text"],
+    input:where(:not([type])),
+    [type="email"],
+    [type="url"],
+    [type="password"],
+    [type="number"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="search"],
+    [type="tel"],
+    [type="time"],
+    [type="week"],
+    [multiple] {
+        appearance: none;
+        background-color: transparent;
+        border-color: unset;
+        border-width: 0;
+        border-radius: unset;
+        padding: unset;
+        font-size: unset;
+        line-height: unset;
+        color: inherit;
+    }
+
+    input:focus-visible,
+    [multiple]:focus-visible,
+    textarea:focus-visible,
+    select:focus-visible {
+        outline: none;
+        box-shadow: none;
+    }
+}

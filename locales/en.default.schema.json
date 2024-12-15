@@ -371,6 +371,17 @@
     }
   },
   "sections": {
+    "myheader": {
+      "name": "MyHeader",
+      "presets": {
+        "name": "MyHeader"
+      },
+      "settings": {
+        "headertext": "headertext",
+        "logo_part_one": "logo_part_one",
+        "logo_part_two": "logo_part_two"
+      }
+    },
     "all": {
       "animation": {
         "content": "Animations",
