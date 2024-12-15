@@ -26,6 +26,43 @@
         "text_color": "#ffffff"
       }
     },
+    "myproducts": {
+      "type": "myproducts",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {}
+        },
+        "column2": {
+          "type": "column",
+          "settings": {}
+        },
+        "column3": {
+          "type": "column",
+          "settings": {}
+        },
+        "column4": {
+          "type": "column",
+          "settings": {}
+        },
+        "column5": {
+          "type": "column",
+          "settings": {}
+        },
+        "column6": {
+          "type": "column",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "column4",
+        "column5",
+        "column6"
+      ]
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -61,6 +98,7 @@
     "myheader",
     "myherobanner",
     "myherofooter",
+    "myproducts",
     "image_banner",
     "featured_collection"
   ]

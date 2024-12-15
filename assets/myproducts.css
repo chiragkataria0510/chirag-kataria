@@ -1,0 +1,83 @@
+:root {
+    --black_900: #000000;
+    --gray_50: #f8f8f8;
+}
+
+.myproducts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myproducts .column {
+    gap: 26px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+.myproducts .column__title {
+    color: var(--black_900) !important;
+    font-size: 36px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 34px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 32px;
+    }
+}
+
+.myproducts .column__grid {
+    align-self: stretch;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    @media only screen and (max-width: 1050px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media only screen and (max-width: 550px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+/* .myproducts .image-gallery {
+    height: 444px;
+    width: 100%;
+    position: relative;
+    align-content: center;
+
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+} */
+
+.myproducts .image-gallery__image {
+    height: 444px;
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.myproducts .image-gallery__add-icon {
+    height: 22px;
+    position: absolute;
+    bottom: 41%;
+    right: 36%;
+    margin: auto;
+}
