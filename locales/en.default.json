@@ -266,6 +266,25 @@
   },
   "sections": {
     "myheader": { "lbl_choose_gift": "choose gift" },
+    "myherobanner":{
+      "settings":{
+         "background_image": {
+          "label": "Background Image"
+        },
+        "thegiftguide": {
+        "label": "Title" 
+        }   ,   
+        "description": {
+          "label": "Description" 
+        },
+        "button_text": {
+          "label": "Button Text" 
+        },
+        "button_link": {
+          "label": "Button Link" 
+        }
+      }
+    },
     "announcements": {
       "previous_announcement": "Previous announcement",
       "next_announcement": "Next announcement",

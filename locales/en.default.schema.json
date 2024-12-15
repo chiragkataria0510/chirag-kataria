@@ -382,6 +382,29 @@
         "logo_part_two": "logo_part_two"
       }
     },
+    "myherobanner": {
+      "name": "MyHeroBanner",
+      "presets": {
+        "name": "MyHeroBanner"
+      },
+      "settings": {
+        "button_text": {
+          "label": "Button Text"
+        },
+        "button_link": {
+          "label": "Button Link"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "thegiftguide": {
+          "label": "Title"
+        },
+        "background_image": {
+          "label": "Background Image"
+        }
+      }
+    },
     "all": {
       "animation": {
         "content": "Animations",

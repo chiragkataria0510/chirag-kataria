@@ -1,0 +1,126 @@
+:root {
+    --black_900: #000000;
+    --white_a700: #ffffff;
+    --yellow_500: #fff444;
+}
+
+.myherobanner .flex-row-center-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.myherobanner {
+    background-color: var(--white_a700);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.myherobanner .row {
+    height: 780px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.myherobanner .gift-guide {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.myherobanner .gift-guide__column {
+    margin-top: 348px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.myherobanner .gift-guide__title {
+    color: var(--black_900) !important;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 48px;
+    }
+}
+
+.myherobanner .gift-guide__description {
+    color: var(--black_900) !important;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 36%;
+    line-height: 140%;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.myherobanner .gift-guide__button {
+    color: var(--white_a700);
+    margin-top: 20px;
+    padding-left: 34px;
+    padding-right: 22px;
+    text-transform: uppercase;
+    font-size: 16px;
+    gap: 28px;
+    background-color: var(--black_900);
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    min-width: 220px;
+
+    @media only screen and (max-width: 550px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.myherobanner .right-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 1px;
+}
+
+.myherobanner .line-15 {
+    height: 11px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 24px;
+    object-fit: contain;
+}
