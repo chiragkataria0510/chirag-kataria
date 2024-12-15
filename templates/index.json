@@ -1,4 +1,12 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "myheader": {
@@ -14,92 +22,21 @@
         "thegiftguide": "The Gift Guide",
         "description": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
         "button_text": "Shop Now",
-
-        "button_link": "/collections/all"
+        "button_link": "shopify://collections/all"
       }
     },
-    "myherofooter": {
+    "myherofooter_crbYyU": {
       "type": "myherofooter",
       "settings": {
         "text": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL",
-        "background_color": "#000000",
-        "text_color": "#ffffff"
-      }
-    },
-    "myproducts": {
-      "type": "myproducts",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {}
-        },
-        "column2": {
-          "type": "column",
-          "settings": {}
-        },
-        "column3": {
-          "type": "column",
-          "settings": {}
-        },
-        "column4": {
-          "type": "column",
-          "settings": {}
-        },
-        "column5": {
-          "type": "column",
-          "settings": {}
-        },
-        "column6": {
-          "type": "column",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3",
-        "column4",
-        "column5",
-        "column6"
-      ]
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "headertext": "Find the ideal gift for your loved ones."
+        "background_color": "#f4f4f4",
+        "text_color": "#000000"
       }
     }
   },
   "order": [
     "myheader",
-    "myherobanner",
-    "myherofooter",
-    "myproducts",
-    "image_banner",
-    "featured_collection"
+    "myherobanner_kWjqKr",
+    "myherofooter_crbYyU"
   ]
 }
