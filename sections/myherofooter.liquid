@@ -1,0 +1,44 @@
+{{ 'my-general-style.css' | asset_url | stylesheet_tag }}
+{{ 'myherofooter.css' | asset_url | stylesheet_tag }}
+<div class="myherofooter myherofooter" style="background-color: {{ section.settings.background_color }};">
+  <div class="rowprice">
+    <p class="rowprice__description" style="color: {{ section.settings.text_color }};">
+      {{ section.settings.text }}
+    </p>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.myherofooter.name",
+    "tag": "section",
+    "class": "section",
+
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "t:sections.myherofooter.settings.text.label",
+        "default": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "t:sections.myherofooter.settings.background_color.label",
+        "default": "#f4f4f4"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "t:sections.myherofooter.settings.text_color.label",
+        "default": "#000000"
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.myherofooter.presets.name"
+      }
+    ]
+  }
+{% endschema %}
+{% javascript %}{% endjavascript %}

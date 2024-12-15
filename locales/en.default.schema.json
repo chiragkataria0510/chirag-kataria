@@ -414,6 +414,23 @@
         }
       }
     },
+    "myherofooter": {
+      "name": "MyHeroFooter",
+      "presets": {
+        "name": "MyHeroFooter"
+      },
+      "settings": {
+        "text": {
+          "label": "My HeroFooter Text"
+        },
+        "background_color": {
+          "label": "Background Color"
+        },
+        "text_color": {
+          "label": "Text Color"
+        }
+      }
+    },
     "all": {
       "animation": {
         "content": "Animations",
